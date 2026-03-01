@@ -1,0 +1,4 @@
+$ ibmcloud cr images
+
+REPOSITORY                                      TAG   DIGEST         NAMESPACE     CREATED         SIZE
+us.icr.io/my-namespace/guestbook                v1    sha256:3f9c8a2  my-namespace  5 minutes ago  23 MB
