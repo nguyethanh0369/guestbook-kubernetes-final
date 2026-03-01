@@ -1,0 +1,6 @@
+$ kubectl rollout history deployment guestbook
+
+deployment.apps/guestbook
+REVISION  CHANGE-CAUSE
+1         kubectl apply -f deployment.yml (CPU request: 100m, limit: 200m)
+2         kubectl apply -f deployment.yml (CPU request: 200m, limit: 400m)
